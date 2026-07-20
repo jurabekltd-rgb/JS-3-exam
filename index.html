@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">cyber</div>
+      <div class="search">
+        <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+        <input type="text" placeholder="Search" />
+      </div>
+      <nav>
+        <a href="./cotalog.html" class="active">Home</a>
+
+        <a href="#">About</a>
+        <a href="./apple.html">Apple</a>
+        <a href="#">Blog</a>
+      </nav>
+
+      <div class="icons">
+        <button id="headerBtn">
+          🛒 Cart
+          <span id="cartCount">0</span>
+          <i class="fa-regular fa-user"></i>
+        </button>
+      </div>
+    </header>
+    <!-- 3.Cart (Savatcha) -->
+    <section id="cart">
+      <header id="cartHeader">
+        <h2>Shopping Cart</h2>
+        <button id="cartClose">X</button>
+      </header>
+      <section id="cartItems">
+        <!-- js dan tavar -->
+      </section>
+      <h3>Total items: <span id="totalItems">0</span></h3>
+      <h3>Total price: <span id="totalPrice">0</span></h3>
+      <button id="clearCarts">Clear Carts</button>
+    </section>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h4>Pro.Beyond.</h4>
+        <h1>iPhone 14 <span>Pro</span></h1>
+        <p>Created to change everything for the better. For everyone.</p>
+        <button>Shop Now</button>
+      </div>
+      <div class="hero-image">
+        <img src="./assets/Iphone.png" alt="" />
+      </div>
+    </section>
+    <section class="showcase">
+      <div class="left">
+        <div class="ps5">
+          <img src="./assets/PlayStation.png" alt="" />
+
+          <div class="text">
+            <h2>Playstation 5</h2>
+
+            <p>
+              Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O
+              will redefine your PlayStation experience.
+            </p>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <div class="airpods">
+            <img src="./assets/AirPods.png" alt="" />
+
+            <div class="text">
+              <h3>Apple AirPods <span>Max</span></h3>
+
+              <p>
+                Computational audio.<br />
+                Listen, it's powerful
+              </p>
+            </div>
+          </div>
+
+          <div class="vision">
+            <img src="./assets/VirOch.png" alt="" />
+
+            <div class="text">
+              <h3>Apple Vision Pro</h3>
+
+              <p>An immersive way to experience entertainment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="content">
+          <h2>Macbook <span>Air</span></h2>
+
+          <p>
+            The new 15-inch MacBook Air makes room for more of what you love
+            with a spacious Liquid Retina display.
+          </p>
+
+          <button>Shop Now</button>
+        </div>
+
+        <img src="./assets/MacBook Pro 14.png" alt="" />
+      </div>
+    </section>
+
+    <!-- 2 -->
+    <!--  CATEGORY -->
+
+    <section class="categories">
+      <div class="container">
+        <div class="title">
+          <h2>Browse By Category</h2>
+
+          <div class="str">
+            <div><p><</p></div>
+            <div><p>></p></div>
+          </div>
+        </div>
+
+        <div class="category-grid">
+          <div class="category-card">
+            <img src="./assets/Phones.png" alt="" />
+
+            <h4>Phones</h4>
+          </div>
+
+          <div class="category-card">
+            <img src="./assets/Smart Watches.png" alt="" />
+
+            <h4>Smart Watches</h4>
+          </div>
+
+          <div class="category-card">
+            <img src="./assets/Cameras.png" alt="" />
+
+            <h4>Cameras</h4>
+          </div>
+
+          <div class="category-card">
+            <img src="./assets/Headphones.png" alt="" />
+
+            <h4>Headphones</h4>
+          </div>
+
+          <div class="category-card">
+            <img src="./assets/Computers.png" alt="" />
+
+            <h4>Computers</h4>
+          </div>
+
+          <div class="category-card">
+            <img src="./assets/Gaming.png" alt="" />
+
+            <h4>Gaming</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  PRODUCTS  -->
+
+    <section class="product-list">
+      <div class="card">
+        <i class="fa-regular fa-heart"></i>
+      </div>
+    </section>
+
+    <!--  POPULAR PRODUCTS  -->
+
+    <section class="popular">
+      <div class="popular-card gray">
+        <img src="./assets/Popular product.png" alt="" />
+
+        <h2>Popular Products</h2>
+
+        <p>
+          iPad combines a magnificent 10.2-inch Retina display, incredible
+          performance and versatility.
+        </p>
+        <button>Shop Now</button>
+      </div>
+      <div class="popular-card white">
+        <img src="./assets/Ipad Pro.png" alt="" />
+        <h2>Ipad Pro</h2>
+        <p>Powerful. Portable. Amazing.</p>
+        <button>Shop Now</button>
+      </div>
+      <div class="popular-card dark">
+        <img src="./assets/Samsung galaxy.png" alt="" />
+        <h2>Samsung Galaxy</h2>
+        <p>New generation flagship smartphone.</p>
+        <button>Shop Now</button>
+      </div>
+      <div class="popular-card black">
+        <img src="./assets/Macbook 1.png" alt="" />
+        <h2>Macbook Pro</h2>
+        <p>Supercharged by Apple Silicon.</p>
+        <button>Shop Now</button>
+      </div>
+    </section>
+    <!--  DISCOUNT  -->
+
+    <section class="discount">
+      <div class="container">
+        <h2>Discounts up to -50%</h2>
+        <div class="products-grid">
+          <div class="card">
+            <i class="fa-regular fa-heart"></i>
+            <img src="./assets/Iphone 14 pro.png" />
+            <h3>Apple iPhone 14 Pro 512GB Gold (MQ233)</h3>
+            <h2>$1437</h2>
+            <button>Buy Now</button>
+          </div>
+
+          <div class="card">
+            <i class="fa-regular fa-heart"></i>
+
+            <img src="./assets/Apple Watch.png" />
+
+            <h3>Apple Watch Series 9 GPS 41mm Starlight Aluminium</h3>
+
+            <h2>$339</h2>
+
+            <button>Buy Now</button>
+          </div>
+
+          <div class="card">
+            <i class="fa-regular fa-heart"></i>
+
+            <img src="./assets/AirPodsMax.png" />
+
+            <h3>AirPods Max Silver Starlight Aluminium</h3>
+
+            <h2>$549</h2>
+
+            <button>Buy Now</button>
+          </div>
+
+          <div class="card">
+            <i class="fa-regular fa-heart"></i>
+
+            <img src="./assets/Iphone 14 pro 1tb gold.png" />
+
+            <h3>Apple iPhone 14 Pro 1TB Gold (MQ2V3)</h3>
+
+            <h2>$1499</h2>
+
+            <button>Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  SUMMER SALE  -->
+
+    <section class="banner">
+      <div class="overlay">
+        <h1>Big Summer <span>Sale</span></h1>
+
+        <p>Commodo fames vitae vitae leo mauris in. Eu consequat.</p>
+
+        <button>Shop Now</button>
+      </div>
+    </section>
+
+    <!--  FOOTER  -->
+
+    <footer>
+      <div class="container footer-grid">
+        <div>
+          <h2>cyber</h2>
+
+          <p>
+            We are a residential interior design firm located in Portland. Our
+            boutique studio offers more than
+          </p>
+        </div>
+
+        <div>
+          <h3>Services</h3>
+
+          <ul>
+            <li>Bonus program</li>
+
+            <li>Gift cards</li>
+
+            <li>Credit and payment</li>
+
+            <li>Service contracts</li>
+
+            <li>Non-cash account</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Assistance</h3>
+
+          <ul>
+            <li>Find an order</li>
+
+            <li>Terms of delivery</li>
+
+            <li>Exchange and return</li>
+
+            <li>Guarantee</li>
+
+            <li>FAQ</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="social">
+        <i class="fa-brands fa-twitter"></i>
+
+        <i class="fa-brands fa-facebook"></i>
+
+        <i class="fa-brands fa-tiktok"></i>
+
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
