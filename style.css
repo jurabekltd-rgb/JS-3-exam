@@ -69,7 +69,7 @@ nav .active {
   font-size: 20px;
   cursor: pointer;
 }
-/* 333 */
+
 #headerBtn {
   display: flex;
   align-items: center;
@@ -133,7 +133,7 @@ nav .active {
   position: absolute;
   right: 0;
   top: 0;
-  padding: 25px;
+  padding: 15px 25px;
   
 }
 #cartHeader {
@@ -181,26 +181,7 @@ nav .active {
 #clearCarts:active {
     transform: scale(0.9);
 }
-/* 3.Cart */
-.cart {
- /* display: none; */
- position: fixed;
- top: 0;
- right: 0;
- width: 400px;
- height: 100vh;
- padding: 20px;
- background: white;
- box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
- overflow-y: auto;
-}
 
-.cartHeader {
- display: flex;
- justify-content: space-between;
- align-items: center;
- margin-bottom: 20px;
-}
 
 #closeBtn {
  padding: 6px 12px;
